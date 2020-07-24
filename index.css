@@ -1,5 +1,53 @@
-body{
+a {
+    margin: 0 1rem;
+    position: relative;
+    color: #fff;
+}
 
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 93, 39);
+    border-radius: 0 0 1rem 1rem;
+    text-align: center;
+    align-items: center;
+    height: 20vh;
+}
+
+nav a:after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: -10px;
+    transition: 0.3s;
+}
+
+nav a:hover:after, nav a.active:after {
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(241, 93, 39);
+    height: 20vh;
+    border-radius: 1rem 1rem 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+p {
+    color: #fff;
+}
+
+img {
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
 }
 
 /*cometarios */
