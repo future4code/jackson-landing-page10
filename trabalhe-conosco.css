@@ -1,0 +1,47 @@
+main {
+    padding: 50px;
+}
+
+main > h2 {
+    color: black;
+}
+
+main > p {
+    color: black;
+    line-height: 22px;
+    margin: 15px 0;
+}
+
+main img {
+    border-radius: 0;
+}
+
+#trabalhe-fotos {
+    display: flex;
+    width: 100%;
+}
+
+#trabalhe-fotos-vert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 0px;
+    width: 30%;
+}
+
+#trabalhe-fotos-vert > img {
+    width: 80%;
+}
+
+#trabalhe-fotos-princ {
+    width: 60%;
+}
+
+#trabalhe-fotos-princ > img {
+    width: 95%;
+}
+
+footer {
+    position: static;
+}
