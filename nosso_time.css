@@ -1,0 +1,15 @@
+img{
+    height: 210px;
+    width: 240px;
+
+}
+
+#time{
+    display: flex;  
+    justify-content: center;
+}
+#Nomes{
+    display: flex;  
+    justify-items: center;
+    align-items: 
+}
