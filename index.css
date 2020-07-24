@@ -36,7 +36,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
     bottom: 0;
     width: 100%;
 }
@@ -49,5 +48,25 @@ img {
     border-radius: 5px;
     box-shadow: 1px 1px 1px black;
 }
+span {
+    color:red;
+}
+h1 {
+    font-size: 4rem;
+    margin-bottom: 2vh;
+}
+
+/* class */
+.style {
+    font-size:2rem;
+    color:black;
+    text-align: center;
+}
+.container {
+    display:flex;
+    justify-content: space-around;
+    margin:5vh 0;
+}
+
 
 /*cometarios */
