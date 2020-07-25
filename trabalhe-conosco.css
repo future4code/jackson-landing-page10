@@ -2,11 +2,11 @@ main {
     padding: 50px;
 }
 
-main > h2 {
+main>h2 {
     color: black;
 }
 
-main > p {
+main>p {
     color: black;
     line-height: 22px;
     margin: 15px 0;
@@ -30,7 +30,7 @@ main img {
     width: 30%;
 }
 
-#trabalhe-fotos-vert > img {
+#trabalhe-fotos-vert>img {
     width: 80%;
 }
 
@@ -38,10 +38,58 @@ main img {
     width: 60%;
 }
 
-#trabalhe-fotos-princ > img {
+#trabalhe-fotos-princ>img {
     width: 95%;
 }
 
-footer {
-    position: static;
+.foot-page {
+    background-color: rgb(241, 93, 39);
+    height: 20vh;
+    border-radius: 1rem 1rem 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.menu {
+    margin: 0 1rem;
+    position: relative;
+    color: #fff;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 93, 39);
+    border-radius: 0 0 1rem 1rem;
+    text-align: center;
+    align-items: center;
+    height: 20vh;
+    padding: 0 3vw 0 3vw
+}
+
+.navigation a:after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: -10px;
+    transition: 0.3s;
+}
+
+.navigation a:hover:after, .navigation a.active:after {
+    width: 100%;
+}
+
+.log {
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.copy {
+    color: #fff;
 }
