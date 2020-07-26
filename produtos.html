@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/css" href="./reset.css">
     <link rel="stylesheet" href="produtos.css">
     <link rel="icon" type="logo" href="../img/logo.png">
@@ -10,116 +11,135 @@
     <title>4Cars</title>
 </head>
 <body>
-    
     <header>
-        <nav class="navigation">
-          <img class="log" src="./img-produtos/logo.png" width="80px" alt="logo empresa">
-          <a class="menu" href="./index.html" class="active">Voltar</a>
+      <nav>  
+           <img src="../img/logo.png" width="80px" alt="logo empresa">
+          <a href="./index.html" class="active">Nossos Produtos/Serviços</a>
+          <a href="#">Quem somos</a>
+          <a href="#">Contato</a>
+          <a href="#">Onde estamos</a>
+          <a href="#">Nosso time</a>
+          <a href="#">Trabalhe conosco</a>
+          <a href="#">Cases de sucesso</a>
+          <a href="#">FAQ/Perguntas frequentes</a>
+          <a href="#">Promoções</a>
         </nav>
     </header>
+
     <main>
-        <article id="prod-eco">
-            <section>
-                <h2>Econômico</h2>
-                <p>Renault Kwid 1.0 ou similar</p>
-                <picture>
-                    <img src="./img-produtos/KWID.png" alt="">
-                </picture>
+        <article class="prod-article" id="prod-eco">
+            <section class="prod-foto">
+                <div>
+                    <h2>Econômico</h2>
+                    <p>Renault Kwid 1.0</p>
+                </div>
+                <img src="./img-produtos/KWID.png" alt="">
             </section>
-            <table>
-                <tr>
-                    <th>KM Rodados</th>
-                    <th>Valor</th>
-                </tr>
-                <tr>
-                    <td>0 - 300km</td>
-                    <td>R$ 150,00</td>
-                </tr>
-                <tr>
-                    <td>301 - 700km</td>
-                    <td>R$ 220,00</td>
-                </tr>
-                <tr>
-                    <td>701 - 1250km</td>
-                    <td>R$ 270,00</td>
-                </tr>
-                <tr>
-                    <td>ilimitado</td>
-                    <td>R$ 330,00</td>
-                </tr>
-            </table>
+
+            <section class="prod-tabela">
+                <table>
+                    <tr>
+                        <th>KM</th>
+                        <th>Valor</th>
+                    </tr>
+                    <tr>
+                        <td>0 - 300</td>
+                        <td>150,00</td>
+                    </tr>
+                    <tr>
+                        <td>301 - 700</td>
+                        <td>220,00</td>
+                    </tr>
+                    <tr>
+                        <td>701 - 1250</td>
+                        <td>270,00</td>
+                    </tr>
+                    <tr>
+                        <td>ilimitado</td>
+                        <td>330,00</td>
+                    </tr>
+                </table>
+            </section>
         </article>
 
-        <article id="prod-inter">
-            <section>
-                <h2>Intermediario</h2>
-                <p>VW Virtus Comfortline FAST ou similar</p>
-                <picture>
-                    <img src="./img-produtos/intermediario.png" alt="">
-                </picture>
+        <article class="prod-article" id="prod-inter">
+            <section class="prod-foto">
+                <div>
+                    <h2>Intermediario</h2>
+                    <p>VW Virtus Comfortline FAST</p>
+                </div>
+                <img src="./img-produtos/intermediario.png" alt="">
             </section>
-            <table>
-                <tr>
-                    <th>KM Rodados</th>
-                    <th>Valor</th>
-                </tr>
-                <tr>
-                    <td>0 - 300km</td>
-                    <td>R$ 180,00</td>
-                </tr>
-                <tr>
-                    <td>301 - 700km</td>
-                    <td>R$ 260,00</td>
-                </tr>
-                <tr>
-                    <td>701 - 1250km</td>
-                    <td>R$ 310,00</td>
-                </tr>
-                <tr>
-                    <td>ilimitado</td>
-                    <td>R$ 360,00</td>
-                </tr>
-            </table>
+
+            <section class="prod-tabela">
+                <table>
+                    <tr>
+                        <th>KM</th>
+                        <th>Valor</th>
+                    </tr>
+                    <tr>
+                        <td>0 - 300</td>
+                        <td>180,00</td>
+                    </tr>
+                    <tr>
+                        <td>301 - 700</td>
+                        <td>260,00</td>
+                    </tr>
+                    <tr>
+                        <td>701 - 1250</td>
+                        <td>310,00</td>
+                    </tr>
+                    <tr>
+                        <td>ilimitado</td>
+                        <td>360,00</td>
+                    </tr>
+                </table>
+            </section>
         </article>
 
-        <article id="prod-suv">
-            <section>
-                <h2>SUV</h2>
-                <p>Jeep Compass Longitude ou similar</p>
-                <picture>
-                    <img src="./img-produtos/suv.png" alt="">
-                </picture>
+        <article class="prod-article" id="prod-suv">
+            <section class="prod-foto">
+                <div>
+                    <h2>SUV</h2>
+                    <p>Jeep Compass Longitude</p>
+                </div>
+                <img src="./img-produtos/suv.png" alt="">
             </section>
-            <table>
-                <tr>
-                    <th>KM Rodados</th>
-                    <th>Valor</th>
-                </tr>
-                <tr>
-                    <td>0 - 300km</td>
-                    <td>R$ 2100,00</td>
-                </tr>
-                <tr>
-                    <td>301 - 700km</td>
-                    <td>R$ 250,00</td>
-                </tr>
-                <tr>
-                    <td>701 - 1250km</td>
-                    <td>R$ 330,00</td>
-                </tr>
-                <tr>
-                    <td>ilimitado</td>
-                    <td>R$ 400,00</td>
-                </tr>
-            </table>
+
+            <section class="prod-tabela">
+                <table>
+                    <tr>
+                        <th>KM</th>
+                        <th>Valor</th>
+                    </tr>
+                    <tr>
+                        <td>0 - 300</td>
+                        <td>210,00</td>
+                    </tr>
+                    <tr>
+                        <td>301 - 700</td>
+                        <td>250,00</td>
+                    </tr>
+                    <tr>
+                        <td>701 - 1250</td>
+                        <td>330,00</td>
+                    </tr>
+                    <tr>
+                        <td>ilimitado</td>
+                        <td>400,00</td>
+                    </tr>
+                </table>
+            </section>
         </article>
-            <footer class="foot-page">
-                <a class="menu" href="http://www.labenu.com.br">
-                    <img class="log" src="./img-produtos/logo.png" width="100vw">
-                </a>
-                <p>Copyright &copy 2020</p>
-            </footer>
     </main>
+
+    <br><br><br><br>
+    <footer>
+        <a href="http://www.labenu.com.br">
+            <img src="../img/logo.png" width="100vw">   
+        </a>
+        <p>Copyright &copy 2020</p> 
+    </footer>
 </body>
 </html>
 
