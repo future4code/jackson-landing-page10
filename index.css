@@ -76,8 +76,11 @@ span {
 }
 
 /* Responsivo*/
+@media screen and (min-width: 740px) {
+    
+}
 
-@media screen and (min-device-width:320px) and (max-device-width:812px) {
+@media screen and (max-width: 739px) {
     .navigation {
         display: flex;
         flex-wrap: wrap;

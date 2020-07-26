@@ -5,6 +5,7 @@ h1 {
 #time {
     display: flex;
     justify-content: center;
+    align-content: space-between;
 }
 
 #Nomes {
@@ -64,4 +65,17 @@ h1 {
 
 .copy {
     color: #fff;
+}
+.fig{
+    padding: 1vw;
+}
+
+@media screen and (min-width: 740px) {
+    
+}
+
+@media screen and (max-width: 739px) {
+    #time{
+        flex-wrap: wrap;
+    }
 }
