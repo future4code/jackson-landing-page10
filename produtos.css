@@ -5,63 +5,90 @@ main {
     align-items: center;
 }
 
-article {
+.prod-article {
     margin: 10px;
-    padding: 15px;
-    width: 80%;
+    padding: 5px 8px;
+    width: 95%;
+    min-width: 300px;
     background-color: rgb(240,240,240);
     border: 3px solid #F15D27;
     box-shadow: 0 4px 4px rgb(120,120,120);
-    border-radius: 8px;
+    border-radius: 5px;
     display: flex;
     justify-content: space-between;
 }
 
-main > article > section > h2 {
-    margin: 0 0 7px 0;
-    padding: 0 0 0 20px;
-}
-
-main > article > section > p {
-    margin: 0;
-    padding: 0 0 0 20px;
-    color: black;
-}
-
-article > section {
-    margin: 0 20px 0 0;
+.prod-foto {
+    margin: 0 10px 0 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     flex-grow: 1;
 }
 
-article > section > picture {
-    display: flex;
-    justify-content: center;
-    padding: 30px 0 20px 0;
+.prod-foto h2 {
+    font-size: 1.1em;
+    /*margin: 0 0 7px 0;
+    padding: 0 0 0 20px;*/
 }
 
-article > section > picture > img {
+.prod-foto > div > p {
+    margin: 0;
+    color: black;
+    font-size: 0.8em;
+}
+
+
+.prod-foto > img {
     border-radius: 0;
     box-shadow: none;
+    width: 100%;
+    min-width: 150px;
+    margin: 15px 0 0 0;
+    align-self: center;
+    /*margin: 15px 0;*/
+    /*min-width: 200px;*/
 }
 
-main > article > table th {
+.prod-tabela > table {height: 100%;}
+
+.prod-tabela th {
     background-color: #F15D27;
     color: white;
-    padding: 10px;
+    font-size: 0.8em;
 }
 
-main > article > table td {
+.prod-tabela td {
     background-color:white;
     text-align: center;
-    padding: 10px;
+    font-size: 0.7em;
+    padding: 0 2px
 }
 
-main > article > table td:nth-child(1) {font-size: 0.9em;}
-main > article > table td:nth-child(2) {font-weight: bold;}
+.prod-tabela td:nth-child(2) {font-weight: bold;}
 
 footer {
-    position: static;
+    position: fixed;
+    bottom: 0;
+}
+
+@media screen and (min-width: 740px) {
+    .prod-article {width: 80%; min-width: 715px; padding: 15px;}
+    .prod-foto {margin: 0 20px 0 0;}
+    .prod-foto h2 {font-size: 1.5em;}
+    .prod-foto > div > p {font-size: 1em;}
+    .prod-foto > img {width: 50%; min-width: 400px; margin: 15px 0;}
+    .prod-tabela th {font-size: 1em;}
+    .prod-tabela td {padding: 0px 15px; font-size: 0.9em;}
+    footer {position: static;}
+}
+
+@media screen and (max-width: 739px) {
+    /*.prod-article {width: 95%; min-width: 300px; padding: 5px 8px;}*/
+    /*.prod-foto {margin: 0 10px 0 0;}*/
+    /*.prod-foto h2 {font-size: 1.1em;}*/
+    /*.prod-foto p {font-size: 0.8em;}*/
+    /*.prod-foto img {width: 100%; min-width: 150px; margin: 15px 0 0 0;}*/
+    /*.prod-tabela th {padding: 0; font-size: 0.8em;}*/
+    /*.prod-tabela td {padding: 0 2px; font-size: 0.7em;}*/
 }
