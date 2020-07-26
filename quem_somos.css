@@ -55,16 +55,35 @@
 .paragraph {
     text-align: center;
     margin:5vh 0;
+    padding: 50px;
+
 }
 h1 {
+    font-size: 3em;
     color:red;
-=======
-
-#conteudo2 {
-    padding: 50px;
+    padding: 3vh;
+}
+.frase{
+    font-size: 1.5em;
+    
 }
 
-#conteudo2 h2{
-    margin: 0 0 12px 0;
 
+@media screen and (min-width: 740px) {
+    
 }
+
+@media screen and (max-width: 739px) {
+    
+    
+    h1{ 
+        font-size: 2rem;
+        padding: 0;
+    }
+    .frase{
+        font-size: 1rem;
+        padding: 0;
+    }
+        
+}
+
