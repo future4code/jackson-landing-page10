@@ -1,65 +1,38 @@
-#form_sugestao {
-    height: 100px;
-    width: 200px;
-    padding: 20px;
+main {
+    padding: 40px;
+}
+
+#titulo1 {
+    margin: 0 0 30px 0;
 }
 
 input {
-    padding: 20px;
+    padding: 10px;
+    border: 1px solid rgb(150,150,150);
+    margin: 0 0 20px 0;
+    width: 60%;
+    min-width: 275px;
+}
+
+#form_sugestao {
+    height: 100px;
+    padding: 10px;
+    margin: 15px 0 0 0;
 }
 
 label {
-    padding: 20px;
+    padding: 20px 0;
 }
 
-.foot-page {
+button {
+    width: 100px;
+    padding: 10px;
+    margin: 15px 0;
     background-color: rgb(241, 93, 39);
-    height: 20vh;
-    border-radius: 1rem 1rem 0 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    bottom: 0;
-    width: 100%;
+    color: white;
 }
 
-.menu {
-    margin: 0 1rem;
-    position: relative;
-    color: #fff;
-}
 
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(241, 93, 39);
-    border-radius: 0 0 1rem 1rem;
-    text-align: center;
-    align-items: center;
-    height: 20vh;
-    padding: 0 3vw 0 3vw
-}
-
-.navigation a:after {
-    content: '';
-    width: 0;
-    height: 2px;
-    background-color: #fff;
-    position: absolute;
-    left: 0;
-    top: -10px;
-    transition: 0.3s;
-}
-
-.navigation a:hover:after, .navigation a.active:after {
-    width: 100%;
-}
-
-.log {
-    border-radius: 5px;
-    box-shadow: 1px 1px 1px black;
-}
-
-.copy {
-    color: #fff;
+#tit-venha {
+    margin: 30px 0 15px 0;
 }
