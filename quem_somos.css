@@ -51,3 +51,11 @@
 .copy {
     color: #fff;
 }
+
+#conteudo2 {
+    padding: 50px;
+}
+
+#conteudo2 h2{
+    margin: 0 0 12px 0;
+}
