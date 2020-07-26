@@ -1,20 +1,22 @@
-a {
+/* Class */
+.menu {
     margin: 0 1rem;
     position: relative;
     color: #fff;
 }
 
-nav {
+.navigation {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: rgb(241, 93, 39);
     border-radius: 0 0 1rem 1rem;
     text-align: center;
     align-items: center;
     height: 20vh;
+    padding:0 3vw 0 3vw
 }
 
-nav a:after {
+.navigation a:after {
     content: '';
     width: 0;
     height: 2px;
@@ -25,11 +27,11 @@ nav a:after {
     transition: 0.3s;
 }
 
-nav a:hover:after, nav a.active:after {
+.navigation a:hover:after, .navigation a.active:after {
     width: 100%;
 }
 
-footer {
+.foot-page {
     background-color: rgb(241, 93, 39);
     height: 20vh;
     border-radius: 1rem 1rem 0 0;
@@ -40,23 +42,12 @@ footer {
     width: 100%;
 }
 
-p {
-    color: #fff;
-}
 
-img {
+.log{
     border-radius: 5px;
     box-shadow: 1px 1px 1px black;
 }
-span {
-    color:red;
-}
-h1 {
-    font-size: 4rem;
-    margin-bottom: 2vh;
-}
 
-/* class */
 .style {
     font-size:2rem;
     color:black;
@@ -67,6 +58,17 @@ h1 {
     justify-content: space-around;
     margin:5vh 0;
 }
-
+.description {
+    font-size: 4rem;
+    margin-bottom: 2vh;
+}
+.copy {
+    color: #fff;
+}
+/* Tags */
+span {
+    color:red;
+}
 
 /*cometarios */
+/* Coloquei class na maioria das minhas tags para não ter possíveis conflitos*/
