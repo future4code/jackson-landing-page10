@@ -52,10 +52,19 @@
     color: #fff;
 }
 
+.paragraph {
+    text-align: center;
+    margin:5vh 0;
+}
+h1 {
+    color:red;
+=======
+
 #conteudo2 {
     padding: 50px;
 }
 
 #conteudo2 h2{
     margin: 0 0 12px 0;
+
 }
