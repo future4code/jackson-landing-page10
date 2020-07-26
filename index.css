@@ -1,4 +1,5 @@
 /* Class */
+
 .menu {
     margin: 0 1rem;
     position: relative;
@@ -13,7 +14,7 @@
     text-align: center;
     align-items: center;
     height: 20vh;
-    padding:0 3vw 0 3vw
+    padding: 0 3vw 0 3vw
 }
 
 .navigation a:after {
@@ -42,33 +43,73 @@
     width: 100%;
 }
 
-
-.log{
+.log {
     border-radius: 5px;
     box-shadow: 1px 1px 1px black;
 }
 
 .style {
-    font-size:2rem;
-    color:black;
+    font-size: 2rem;
+    color: black;
     text-align: center;
 }
+
 .container {
-    display:flex;
+    display: flex;
     justify-content: space-around;
-    margin:5vh 0;
+    margin: 5vh 0;
 }
+
 .description {
     font-size: 4rem;
     margin-bottom: 2vh;
 }
+
 .copy {
     color: #fff;
 }
+
 /* Tags */
+
 span {
-    color:red;
+    color: red;
+}
+
+/* Responsivo*/
+
+@media screen and (min-device-width:320px) and (max-device-width:812px) {
+    .navigation {
+        display: flex;
+        flex-wrap: wrap;
+        height: 35vh;
+        width: 100%;
+        padding: 0
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .image {
+        width: 100%;
+    }
+    header {
+        width: 100vw;
+    }
+    div {
+        width: 100%;
+        padding: 2vh 2vh;
+    }
 }
 
 /*cometarios */
+
 /* Coloquei class na maioria das minhas tags para não ter possíveis conflitos*/
